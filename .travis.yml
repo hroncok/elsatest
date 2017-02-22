@@ -6,3 +6,6 @@ script:
 deploy:
     provider: script
     script: 'python website.py deploy --no-cname --push'
+env:
+  global:
+    - secure: FEa7fbaHaXENZ6wRaOQsX3+SpqWBV5PqHY9W7e5BBJwniVkQ7LUwcBBsxeXr0w3P1uhJqE8RTBMqdjMDbSZ0NvBk5ghG9zuIiToe0pR+xNdl7XQ1yyjre7xKG7GE1hNbqGroctAX0vY9N4+oBajjoJLL3NL+Jf06tO+CpvqOc4Cg5/9XnJxdV+t5D6evkcyFveuuLt9TocvupG2QI7oPaOb2YzMzTn6ERkA1/AR1RzOn4w4i1o61+/sbMs8yldUV4uD7CIY2dHXnksOC/GLJNvT/wgH0qvaKO1iVQG+Xy5h6eoPu1+pI8PGgRMFXiJwZR/4ICRYxa+bnMDUYvvmVrl32M25JFZHK+WytngwESPtt0fZ9Sz5mjF7T5MMTVip4kGjppvKi5DfUk3PfXmK4xXGqi96S8Lhxk720FTxDur+TvQKyB8i+LV/qXboZdChqBWyoW/nFMTzHR+GCr8I47umhBWJiB32yARnA6gXjEg51+CdNFJELc89Jt7RLH8enDwpDcA7KI4K/Tpl4JmbCATC6Ycu+oTndvcYmRK9NGKZPFxXc6efelmhQULKrpE8cQn0sU+WssNnlYzMX/WnXQR/FPtGTzQZkyr26W9FPL4l94WNQRRbP9+jucJQ3bqtvzuo6baSJn4pWMZiUdjayZ9O7+gBgd3+RxFz8Xyd6dZo=
